@@ -1,0 +1,21 @@
+//
+// For default lint configuration for JS syntax and grammar
+// https://github.com/feross/eslint-config-standard/blob/master/eslintrc.json
+//
+// For default lint configuration for React / JSX
+// https://github.com/feross/eslint-config-standard-react/blob/master/eslintrc.json
+{
+	"parser": "babel-eslint",
+	"extends": ["standard", "standard-react"],
+	"rules": {
+		"indent": [1, "tab", {"SwitchCase": 1}],
+		"no-tabs": 0,
+		"space-before-function-paren": [1, "never"],
+		"no-underscore-dangle": 0,
+		"semi": [2, "always"]
+	},
+	"globals": {
+		"Image": true,
+		"IntersectionObserver": true
+	}
+}
